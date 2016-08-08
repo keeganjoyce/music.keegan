@@ -707,7 +707,7 @@ aside.cta-quote span.quote {
     line-height: 20px;
   }
   .portfolio-carousel .item hr.colored {
-    margin: 20px auto 20px 0;
+    margin: 20px auto;
   }
 }
 .portfolio-gallery .item {
@@ -1158,4 +1158,39 @@ body.vintage .testimonials .testimonials-carousel .item .testimonial-info .testi
 body.vintage .testimonials .testimonials-carousel .owl-controls .owl-prev,
 body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
   line-height: 55px;
+}
+
+.img-responsive {
+  margin: 0 auto;
+}
+
+.fa-bandcamp::before {
+  content: "b";
+  background: #41c4ab;
+  width: 0.8em;
+  color: transparent;
+  display: inline-block;
+  height: 0.8em;
+  transform: skew(-25deg);
+  vertical-align: -10%;
+  -webkit-transform: skew(-25deg);
+  -moz-transform: skew(-25deg);
+  -ms-transform: skew(-25deg);
+  -o-transform: skew(-25deg);
+}
+
+.fa-bandcamp:hover::before {
+  background: white;
+}
+
+.navbar-center {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.navbar-center li {
+  display: inline-block;
+  float: none;
 }
