@@ -1197,3 +1197,8 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
   display: inline-block;
   float: none;
 }
+
+.slightly-poppier {
+  text-shadow: 1px 1px 2px #222222;
+  font-size: 20px;
+}
