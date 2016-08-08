@@ -253,6 +253,9 @@ hr.colored {
     background: transparent;
     border: none;
   }
+  .navbar-expanded .container .collapse .navbar-nav li a {
+    color: #222222 !important;
+  }
 }
 .navbar a:focus {
   outline: none;
