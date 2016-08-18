@@ -1201,3 +1201,8 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
 .slightly-poppier {
   font-size: 20px;
 }
+
+.logo {
+  height: 50px;
+  width: auto;
+}
